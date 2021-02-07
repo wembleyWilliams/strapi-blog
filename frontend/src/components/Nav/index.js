@@ -24,7 +24,7 @@ const Nav = () => {
                   <ul className="uk-navbar-nav">
                     {categories.map((category, i) => {
                       return (
-                        <li key={category.id}>
+                        <li key={category.id}>``
                           <Link
                             to={`/category/${category.id}`}
                             className="uk-link-reset"
